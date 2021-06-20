@@ -1,8 +1,10 @@
 {
   "scripts": {
-    "buildHelloWorld":"rollup src/helloWorld/main.js -f cjs -o src/helloWorld/bundle.js"
+    "buildHelloWorld": "rollup src/helloWorld/main.js -f cjs -o src/helloWorld/bundle.js",
+    "buildConfig": "rollup -c"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
     "rollup": "^2.52.1"
   }
 }

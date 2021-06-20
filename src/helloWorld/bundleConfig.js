@@ -10,7 +10,7 @@ var foo = 'hello rollup --zou';
 
 function main () {
   console.log(foo);
-  console.log(lodash__default['default'].VERSION);
+  console.log(lodash__default['default'].add(1, 2));
 }
 
 module.exports = main;

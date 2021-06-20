@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "buildHelloWorld":"rollup src/helloWorld/main.js -f cjs -o src/helloWorld/bundle.js"
+  },
+  "dependencies": {
+    "rollup": "^2.52.1"
+  }
+}
